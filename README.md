@@ -9,7 +9,6 @@
 
 ## Pull Requests
 
-<a id="cmds"></a>
 ## Git Commands Cheatsheet
 ### Setup
 #### If you have a remote GitHub repository already
@@ -61,7 +60,11 @@ IMPORTANT: make sure the branch name you put here is the same as what your branc
 #### If you are NOT pushing code for the first time on the branch
 `git push`
 
-<a id="mc"></a>
+### Cleanup
+After pushing your changes to GitHub (you have successfully integrated your new feature to the GitHub repository), you should close your branch on your local repository to reduce clutter!
+
+`git branch -d <insert your branch name>`
+
 ## Dealing with Merge Conflicts
 
 This is very likely to happen when you make a pull request, especially if you are working on a collaborative project!
@@ -69,3 +72,6 @@ This is very likely to happen when you make a pull request, especially if you ar
 To deal with this, you can merge your code locally. First, let's pull the code on the main branch currently.
 
 `git pull origin main`
+
+Next, you can merge your 
+
